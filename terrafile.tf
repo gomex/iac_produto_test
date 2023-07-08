@@ -9,3 +9,8 @@ module "produto" {
     },
   }
 }
+
+output "public_ip" {
+  description = "IP publico da instância"
+  value       = module.produto.public_ip
+}
