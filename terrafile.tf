@@ -1,5 +1,5 @@
 module "produto" {
-  source        = "git@github.com:gomex/iac_module_server.git?ref=v1.2.1"
+  source        = "git@github.com:gomex/iac_module_server.git?ref=v1.3.0"
   instance_type = "t3.micro"
   sg_group_rule = {
     grafana = {
